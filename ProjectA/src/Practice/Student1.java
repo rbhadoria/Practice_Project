@@ -17,22 +17,18 @@ public class Student1
   public void m2(int a, int b)
   {
 	  this.m1(55);
-	  System.out.println("Two Parameterized Method");
-	  
+	  System.out.println("Two Parameterized Method");  
   }
   
   public void m3(int a , int b, int c)
   {
-	  
-	  System.out.println("Three Parameterized Method");
-	  
+	  System.out.println("Three Parameterized Method");  
   }
   
   public void m4(int a,int b , int c , int d )
   {
 	  this.m3(4, 5, 9);
-	  System.out.println("Four Parameterized Method");
-	  
+	  System.out.println("Four Parameterized Method");  
   }
   
   public static void main(String[] args) 
